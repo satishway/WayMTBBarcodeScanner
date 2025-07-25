@@ -6,6 +6,9 @@
 //
 //
 
+#ifndef MTBBarcodeScanner_h
+#define MTBBarcodeScanner_h
+
 #import <AVFoundation/AVFoundation.h>
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
@@ -328,3 +331,5 @@ typedef NS_ENUM(NSUInteger, MTBTorchMode) {
 - (BOOL)isCapturingStillImage;
 
 @end
+
+#endif /* MTBBarcodeScanner_h */
