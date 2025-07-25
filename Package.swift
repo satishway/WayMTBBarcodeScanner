@@ -26,6 +26,7 @@ let package = Package(
             name: "MTBBarcodeScanner",
             dependencies: [],
             path: "MTBBarcodeScanner/ios/Scanners",
+            publicHeadersPath: ".",
             cSettings: [
                 .headerSearchPath("."),
                 .define("MTBBARCODESCANNER_SPM", to: "1")
